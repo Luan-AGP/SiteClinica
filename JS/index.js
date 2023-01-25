@@ -3,7 +3,7 @@ const menuItems = document.querySelectorAll('.nav ul li a[href^="#"]')
 const links = document.querySelectorAll('header .nav a')
 
 window.addEventListener('scroll', () => {
-  if ( window.scrollY > 880) {
+  if ( window.scrollY > 850) {
       header.style.setProperty('background-color', '#ffffff')
       header.style.setProperty('box-shadow', '0 3px 10px -1px #A9A9A9')
       header.style.setProperty('z-index', '1')
@@ -32,7 +32,7 @@ function scrollToPosition(to) {
 
 function scrollToIdOnClick(event) {
 	event.preventDefault();
-	const to = getScrollTopByHref(event.currentTarget)- 101;
+	const to = getScrollTopByHref(event.currentTarget)- 102;
 	scrollToPosition(to);
 }
 
