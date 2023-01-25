@@ -3,7 +3,7 @@ const menuItems = document.querySelectorAll('.nav ul li a[href^="#"]')
 const links = document.querySelectorAll('header .nav a')
 
 window.addEventListener('scroll', () => {
-  if ( window.scrollY > 900) {
+  if ( window.scrollY > 905) {
       header.style.setProperty('background-color', '#ffffff')
       header.style.setProperty('box-shadow', '0 3px 10px -1px #A9A9A9')
       header.style.setProperty('z-index', '1')
