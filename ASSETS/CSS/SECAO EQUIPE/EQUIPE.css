@@ -1,0 +1,68 @@
+.equipe{
+    background-image: linear-gradient(to right, #1f4670, #3e7ec1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 30px;
+    height: 100vh;
+}
+
+.titulo-equipe{
+    color: white;
+    font-size: 30px;
+}
+
+.equipes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 100%;
+}
+
+.equipes h1{
+    color: #444;
+}
+
+.equipes p{
+    color: #444;
+    text-align: center;
+    width: 80%;
+    height: 30%;
+}
+
+section a{
+    text-decoration: none;
+}
+
+section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 350px;
+}
+
+section .medico, .enfermeiro, .auxenfermagem, .fisio, .fono, .nutri, .psico, .to{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+section .medico:hover, .enfermeiro:hover, .auxenfermagem:hover, .fisio:hover, .fono:hover, .nutri:hover,
+.psico:hover, .to:hover{
+    background-color: white;
+}
+
+section .medico img, .enfermeiro img, .auxenfermagem img, .fisio img, .fono img, .nutri img,
+.psico img, .to img{
+    background-color: #3e7ec1;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px #DCDCDC;
+    padding: 5px;
+    margin-top: 10px;
+    width: 110px;
+    height: 110px;
+}
