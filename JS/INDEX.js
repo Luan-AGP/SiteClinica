@@ -1,15 +1,23 @@
 const header = document.getElementById('header')
-const seta = document.getElementById('seta')
-const menuItems = document.querySelectorAll('.nav ul li a[href^="#"]');
+const menuItems = document.querySelectorAll('.nav ul li a[href^="#"]')
+const links = document.querySelectorAll('header .nav a')
 
 window.addEventListener('scroll', () => {
-    if ( window.scrollY > 950) {
-        header.style.setProperty('background-color', '#ffffff')
-        header.style.setProperty('box-shadow', '0 3px 10px -1px #A9A9A9')
-    } else {
-        header.style.setProperty('background-color', '')
-        header.style.setProperty('box-shadow', 'none')
-    }
+  if ( window.scrollY > 906) {
+      header.style.setProperty('background-color', '#ffffff')
+      header.style.setProperty('box-shadow', '0 3px 10px -1px #A9A9A9')
+      links.forEach((element)=>{
+        element.classList.remove('colorWhite')
+        element.classList.add('colorBlack')
+      })
+  } else {
+      header.style.setProperty('background-color', '')
+      header.style.setProperty('box-shadow', 'none')
+      links.forEach((element)=>{
+        element.classList.remove('colorBlack')
+        element.classList.add('colorWhite')
+      })
+  }
 })
 
 function getScrollTopByHref(element) {
@@ -23,7 +31,7 @@ function scrollToPosition(to) {
 
 function scrollToIdOnClick(event) {
 	event.preventDefault();
-	const to = getScrollTopByHref(event.currentTarget)- 0;
+	const to = getScrollTopByHref(event.currentTarget)- 100;
 	scrollToPosition(to);
 }
 

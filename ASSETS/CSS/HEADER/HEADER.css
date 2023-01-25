@@ -1,4 +1,6 @@
 header{
+    position: sticky;
+    top: 0%;
     background-color: #1C1C1C;
     display: flex;
     justify-content: space-around;
@@ -11,6 +13,14 @@ header{
 
 header img{
     width: 220px;
+}
+
+.colorWhite{
+    color: #ffffff;
+}
+
+.colorBlack{
+    color: #000000;
 }
 
 header .nav ul{
@@ -26,7 +36,6 @@ header .nav li{
 
 header .nav a{
     font-size: 0.95rem;
-    color: #ffffff;
     font-weight: 600;
     text-decoration: none;
 }

@@ -25,21 +25,22 @@
 
 .home-care-button {
     text-decoration: none;
-    color: #171818;
+    color: white;
     font-size: 0.875rem;
     letter-spacing: 1px;
     border-style: none;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #ffffff;
+    background-color: #5793bd;
     cursor: pointer;
     padding: 13px 66px 14px;
     align-self: flex-start;
+    transition: 0.5s ease-in-out;
 }
 
 .home-care-button:hover {
-    background-color: #4867d6;
-    color: #ffffff;
+    background: #fea04d;
+    transform: scale(1.05);
 }
 
 .paragraph {
