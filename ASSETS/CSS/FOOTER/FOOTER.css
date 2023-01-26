@@ -56,6 +56,20 @@ footer .dados .contatos div{
     gap: 15px;
 }
 
+footer .dados .redes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+    gap: 10px;
+    height: 250px;
+    width: 80%;
+}
+
+footer .dados .redes div{
+    gap: 15px;
+}
+
 footer .dados .local{
     display: flex;
     flex-direction: column;
@@ -70,21 +84,14 @@ footer .dados .local div{
     gap: 15px;
 }
 
+footer .dados .local p{
+    margin-left: -10px;
+    color: black;
+    font-weight: 600;
+}
+
 footer .dados img{
     width: 20px;
-}
-
-footer .dados .cep{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-footer .dados .cep p{
-    text-align: center;
-    font-weight: 600;
-    color: black;
 }
 
 footer .dados a{

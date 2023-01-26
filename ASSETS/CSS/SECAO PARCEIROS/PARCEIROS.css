@@ -20,13 +20,13 @@
     width: 100%;
 }
 
-.logo-parceiros a{
+.logo-parceiros img{
     transition: 1s;
     transform: translateX(0) scale(1);
 }
 
-.logo-parceiros a:hover,
-.logo-parceiros a:focus{
+.logo-parceiros img:hover,
+.logo-parceiros img:focus{
     transform: translateX(0) scale(1.1);
 }
 
