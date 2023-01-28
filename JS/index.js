@@ -27,6 +27,10 @@ window.addEventListener('scroll', () => {
         element.classList.remove('colorWhite')
         element.classList.add('colorBlack')
       })
+      hamburgerBars.forEach((element)=>{
+        element.style.setProperty('background-color', 'black')
+      })
+      navMenu.style.setProperty('background-color', '#ffffff')
   } else {
       header.style.setProperty('background-color', '')
       header.style.setProperty('box-shadow', 'none')
@@ -34,6 +38,10 @@ window.addEventListener('scroll', () => {
         element.classList.remove('colorBlack')
         element.classList.add('colorWhite')
       })
+      hamburgerBars.forEach((element)=>{
+        element.style.setProperty('background-color', 'white')
+      })
+      navMenu.style.setProperty('background-color', '#1C1C1C')
   }
 })
 
