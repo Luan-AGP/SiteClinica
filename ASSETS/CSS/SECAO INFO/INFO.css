@@ -37,6 +37,7 @@
     background-color: #5793bd;
     cursor: pointer;
     padding: 13px 66px 14px;
+    width: 100%;
     align-self: flex-start;
     transition: 0.5s ease-in-out;
 }
