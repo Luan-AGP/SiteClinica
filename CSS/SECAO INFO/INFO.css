@@ -1,0 +1,143 @@
+.home-care-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C1C1C;
+    width: 100%;
+    height: 40vh;
+    color: #ffffff;
+}
+
+.home-care {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 30%;
+}
+
+
+.home-care-title {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.home-care-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    border-style: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #5793bd;
+    cursor: pointer;
+    padding: 13px 66px 14px;
+    width: 100%;
+    align-self: flex-start;
+    transition: 0.5s ease-in-out;
+}
+
+.home-care-button:hover {
+    background: #fea04d;
+    transform: scale(1.05);
+}
+
+.paragraph {
+    justify-self: flex-start;
+    text-align: justify;
+}
+
+.home-care p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.benefits {
+    list-style: none;
+}
+
+.benefits-item {
+    font-size: 1.5rem;
+    display: flex;
+    gap: 10px;
+}
+
+.benefits-item::before {
+    content: "•";
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1520px){
+    .home-care-section{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .home-care:nth-child(1){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-top: -3rem;
+        width: 100%;
+    }
+
+    .home-care:nth-child(2){
+        align-self: flex-start;
+        margin-top: -60px;
+        width: 100%;
+    }
+
+    .home-care:nth-child(3){
+        width: 80%;
+    }
+
+    .home-care a{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:421px){
+    .home-care-section{
+        display: flex;
+        flex-direction: column;
+        height: 100vh
+    }
+
+    .home-care h1{
+        font-size: 1.8rem;
+    }
+
+    .home-care:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        margin-top: -100px;
+        margin-bottom: -80px;
+    }
+
+    .home-care:nth-child(2){
+        margin-top: -60px;
+        width: 80%;
+        margin-bottom: 10px;
+        margin: 0 auto;
+    }
+
+    .home-care ul li{
+        text-align: left;
+    }
+
+    .home-care:nth-child(3){
+        width: 80%;
+    }
+    
+    .home-care-button{
+        font-size: 1rem;
+    }
+}

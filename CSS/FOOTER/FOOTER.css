@@ -1,0 +1,145 @@
+footer{
+    background-color: #1C1C1C;
+    position: relative;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+}
+
+footer .dados{
+    background-color: #F0F2F5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+footer .informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+footer .dados div{
+    align-items: center;
+}
+
+footer .dados h1{
+    color: #444;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+footer .dados .logo{
+    height: 330px;
+}
+
+footer .dados .logo img{
+    width: 300px;
+}
+
+footer .dados .contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+    gap: 10px;
+    height: 250px;
+    width: 80%;
+}
+
+footer .dados .contatos div{
+    gap: 15px;
+}
+
+footer .dados .redes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+    gap: 10px;
+    height: 250px;
+    width: 80%;
+}
+
+footer .dados .redes div{
+    gap: 15px;
+}
+
+footer .dados .local{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+    gap: 10px;
+    width: 80%;
+    height: 250px;
+}
+
+footer .dados .local div{
+    gap: 15px;
+}
+
+footer .dados .local p{
+    margin-left: -10px;
+    color: black;
+    font-weight: 600;
+}
+
+footer .dados img{
+    width: 20px;
+}
+
+footer .dados a{
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+footer iframe{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+footer div img{
+    width: 80px;
+}
+
+footer .rodape{
+    padding: 15px;
+    gap: 30px;
+}
+
+footer div .selogoogle{
+    width: 120px;
+}
+
+@media screen and (max-width:421px){
+    footer .dados{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+        height: 100%;
+    }
+    
+    .informacoes{
+        margin-top: 30px;
+    }
+    
+    .informacoes{
+        gap: 30px;
+    }
+}

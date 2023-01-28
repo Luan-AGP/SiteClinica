@@ -1,0 +1,80 @@
+.planos{
+    background: linear-gradient(white, #e4e6eb);
+    height: 70vh;
+    padding: 30px;
+}
+
+.tabela-de-planos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.tabela-de-planos a{
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    transition: 0.5s ease-in-out;
+}
+
+.tabela-de-planos a:hover{
+    background: #fea04d;
+    color: white;
+    margin-top: 40px;
+    transform: scale(1.05);
+}
+
+.planos h1{
+    display: flex;
+    justify-content: center;
+    color: #444;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.planos h6{
+    display: flex;
+    justify-content: center;
+    color: #444;
+    font-size: 14px;
+}
+
+.tabela-de-planos table{
+    width: 80%;
+    height: 50%;
+}
+
+th{
+    background-color: #444;
+    color: white;
+    padding: 10px;
+}
+
+td{
+    background-color: #e4e6eb;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1520px){
+    .planos{
+        height: 100%;
+    }
+
+    .planos h1{
+        margin-bottom: 20px;
+    }
+
+    .planos h6{
+        margin-bottom: 20px;
+    }    
+}
+
+@media screen and (max-width:421px){
+    table{
+        display: flex;
+        overflow-x: scroll;
+    }
+}
