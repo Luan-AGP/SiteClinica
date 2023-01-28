@@ -24,6 +24,9 @@
 }
 
 .home-care-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: white;
     font-size: 0.875rem;
