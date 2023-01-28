@@ -50,6 +50,7 @@
     color: white;
     border-style: none;
     font-size: 1.5rem;
+    font-weight: 500;
     text-shadow: none;
     margin-top: 50px;
     width: 180px;
@@ -84,6 +85,10 @@
     .cabecalho h2{
         font-size: 1.4rem;
         width: 100%;
+    }
+
+    .cabecalho p{
+        text-align: left;
     }
 
     .home .img-home{
