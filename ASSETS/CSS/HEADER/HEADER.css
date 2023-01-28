@@ -23,15 +23,12 @@ header img{
     color: #000000;
 }
 
-header .nav{
-    transition: 0.5s ease-in-out;
-}
-
 header .nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    transition: 0.5s ease-in-out;
 }
 
 header .nav li{
@@ -88,7 +85,7 @@ header .nav a:hover{
         top: -1000%;
         gap: 0;
         flex-direction: column;
-        transition: 0.5s ease-in-out;
+        transition: 0.5s;
         background-color: #1C1C1C;
     }
 
