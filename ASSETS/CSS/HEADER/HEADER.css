@@ -28,6 +28,7 @@ header .nav ul{
     justify-content: center;
     align-items: center;
     gap: 50px;
+    transition: 0.5s ease-in-out;
 }
 
 header .nav li{
