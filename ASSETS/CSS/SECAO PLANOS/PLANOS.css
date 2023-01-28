@@ -72,8 +72,9 @@ td{
     }    
 }
 
-@media screen and (max-width:401px){
-    .tabela-de-planos{
+@media screen and (max-width:421px){
+    table{
+        display: flex;
         overflow-x: scroll;
     }
 }

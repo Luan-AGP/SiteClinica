@@ -3,7 +3,8 @@ const menuItems = document.querySelectorAll('.nav ul li a[href^="#"]')
 const links = document.querySelectorAll('header .nav a')
 const hamburger = document.querySelector('.hamburger')
 const hamburgerBars = document.querySelectorAll('.bar')
-const navMenu= document.querySelector('.nav ul')
+const navMenu = document.querySelector('.nav ul')
+const home = document.getElementById('home')
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active')
@@ -18,7 +19,7 @@ document.querySelectorAll('.nav ul li a').forEach(n => {
 })
 
 window.addEventListener('scroll', () => {
-  if ( window.scrollY > 500) {
+  if ( window.scrollY > home.scrollHeight) {
       header.style.setProperty('background-color', '#ffffff')
       header.style.setProperty('box-shadow', '0 3px 10px -1px #A9A9A9')
       header.style.setProperty('z-index', '1')

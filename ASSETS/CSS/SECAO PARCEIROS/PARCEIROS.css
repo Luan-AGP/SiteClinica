@@ -40,9 +40,9 @@
     }    
 }
 
-@media screen and (max-width:401px){
+@media screen and (max-width:421px){
     .parceiros{
-        gap: 50px;
+        gap: 60px;
     }
     .logo-parceiros{
         display: flex;
@@ -50,4 +50,8 @@
         gap: 50px;
         height: 100%;
     }    
+
+    .logo-parceiros img{
+        width: 160px;
+    }
 }

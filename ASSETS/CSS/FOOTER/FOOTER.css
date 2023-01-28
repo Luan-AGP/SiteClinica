@@ -127,13 +127,17 @@ footer div .selogoogle{
     width: 120px;
 }
 
-@media screen and (max-width:401px){
+@media screen and (max-width:421px){
     footer .dados{
         display: flex;
         flex-direction: column-reverse;
         gap: 50px;
         height: 100%;
-    }  
+    }
+    
+    .informacoes{
+        margin-top: 30px;
+    }
     
     .informacoes{
         gap: 30px;
