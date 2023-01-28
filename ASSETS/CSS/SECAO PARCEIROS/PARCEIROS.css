@@ -33,3 +33,21 @@
 .parceiros img{
     width: 200px;
 }
+
+@media screen and (max-width:1520px){
+    .parceiros{
+        height: 100%;
+    }    
+}
+
+@media screen and (max-width:401px){
+    .parceiros{
+        gap: 50px;
+    }
+    .logo-parceiros{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        height: 100%;
+    }    
+}

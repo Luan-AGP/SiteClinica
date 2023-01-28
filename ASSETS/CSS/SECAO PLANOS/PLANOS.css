@@ -15,7 +15,7 @@
 .tabela-de-planos a{
     background-color: #444;
     color: white;
-    padding: 30px;
+    padding: 20px;
     margin-top: 40px;
     transition: 0.5s ease-in-out;
 }
@@ -32,6 +32,7 @@
     justify-content: center;
     color: #444;
     font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .planos h6{
@@ -55,4 +56,24 @@ th{
 td{
     background-color: #e4e6eb;
     padding: 10px;
+}
+
+@media screen and (max-width: 1520px){
+    .planos{
+        height: 100%;
+    }
+
+    .planos h1{
+        margin-bottom: 20px;
+    }
+
+    .planos h6{
+        margin-bottom: 20px;
+    }    
+}
+
+@media screen and (max-width:401px){
+    .tabela-de-planos{
+        overflow-x: scroll;
+    }
 }

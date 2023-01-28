@@ -59,3 +59,33 @@ button:hover{
     background: #fea04d;
     transform: scale(1.05);
 }
+
+@media screen and (max-width:401px){
+    .home{
+        width: 100%;
+    }
+
+    .cabecalho{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cabecalho h2{
+        width: 100%;
+    }
+
+    .home .img-home{
+        display: none;
+    }
+    
+    a{
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    button{
+        font-size: 1rem;
+    }
+}

@@ -66,3 +66,13 @@ section .medico img, .enfermeiro img, .auxenfermagem img, .fisio img, .fono img,
     width: 110px;
     height: 110px;
 }
+
+@media screen and (max-width: 1520px){
+    .equipe{
+        height: fit-content;
+    }
+
+    .equipes{
+        height: fit-content;
+    }
+}

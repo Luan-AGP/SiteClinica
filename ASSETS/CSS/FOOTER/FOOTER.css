@@ -126,3 +126,16 @@ footer .rodape{
 footer div .selogoogle{
     width: 120px;
 }
+
+@media screen and (max-width:401px){
+    footer .dados{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+        height: 100%;
+    }  
+    
+    .informacoes{
+        gap: 30px;
+    }
+}

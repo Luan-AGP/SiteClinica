@@ -59,3 +59,54 @@ header .nav a:hover{
     transition: all 0.3s ease-in-out;
     background-color: white;
 }
+
+@media screen and (max-width: 1520px){
+    header{
+        padding: 50px;
+        gap: 100px;
+    }
+
+    header .nav ul{
+        gap: 30px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    #header {
+        padding: 1rem;
+    }
+    #header .nav ul {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: -1000%;
+        gap: 0;
+        flex-direction: column;
+        transition: 0.5s;
+        background-color: #1C1C1C;
+    }
+
+    #header .nav ul li {
+        margin: 16px 0;
+    }
+
+    #header .nav .hamburger {
+        display: block;
+    }
+
+    #header .nav .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    #header .nav .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    #header .nav .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    #header .nav .active {
+        top: 10vh;
+      }
+}
