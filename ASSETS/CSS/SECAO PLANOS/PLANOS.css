@@ -72,7 +72,11 @@ td{
     }    
 }
 
-@media screen and (max-width:421px){
+@media screen and (max-width:460px){
+    .planos h1{
+        font-size: 1.6rem;
+    }
+
     table{
         display: flex;
         overflow-x: scroll;

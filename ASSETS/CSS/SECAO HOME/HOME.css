@@ -64,7 +64,7 @@
     transform: scale(1.05);
 }
 
-@media screen and (max-width:421px){
+@media screen and (max-width:800px){
     .home{
         width: 100%;
     }

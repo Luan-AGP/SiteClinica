@@ -127,6 +127,15 @@ footer div .selogoogle{
     width: 120px;
 }
 
+@media screen and (max-width:1000px){
+    footer .dados{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+        height: 100%;
+    }   
+}
+
 @media screen and (max-width:421px){
     footer .dados{
         display: flex;
@@ -141,5 +150,20 @@ footer div .selogoogle{
     
     .informacoes{
         gap: 30px;
+    }
+}
+
+@media screen and (max-width:350px){
+    footer .dados{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .informacoes{
+        margin-top: 50px;
     }
 }
