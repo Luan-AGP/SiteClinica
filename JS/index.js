@@ -22,7 +22,6 @@ window.addEventListener('scroll', () => {
   if ( window.scrollY > home.scrollHeight) {
       header.style.setProperty('background-color', '#ffffff')
       header.style.setProperty('box-shadow', '0 3px 10px -1px #A9A9A9')
-      header.style.setProperty('z-index', '1')
       links.forEach((element)=>{
         element.classList.remove('colorWhite')
         element.classList.add('colorBlack')
@@ -30,7 +29,6 @@ window.addEventListener('scroll', () => {
       hamburgerBars.forEach((element)=>{
         element.style.setProperty('background-color', 'black')
       })
-      navMenu.style.setProperty('background-color', '#ffffff')
   } else {
       header.style.setProperty('background-color', '')
       header.style.setProperty('box-shadow', 'none')
@@ -41,7 +39,6 @@ window.addEventListener('scroll', () => {
       hamburgerBars.forEach((element)=>{
         element.style.setProperty('background-color', 'white')
       })
-      navMenu.style.setProperty('background-color', '#1C1C1C')
   }
 })
 

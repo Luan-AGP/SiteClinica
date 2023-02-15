@@ -5,7 +5,7 @@
     align-items: center;
     gap: 100px;
     padding: 30px;
-    height: 100vh;
+    height: 100vmin;
 }
 
 .titulo-equipe{
