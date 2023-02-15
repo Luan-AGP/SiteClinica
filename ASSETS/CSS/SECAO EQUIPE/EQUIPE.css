@@ -83,7 +83,6 @@ section .medico img, .enfermeiro img, .auxenfermagem img, .fisio img, .fono img,
     }
 
     section .medico p, .enfermeiro p, .auxenfermagem p, .fisio p, .fono p, .nutri p, .psico p, .to p{
-        background-color: red;
         width: 95%;
     }
 }
